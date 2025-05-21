@@ -1,0 +1,5 @@
+{
+    # flow parameters
+    "nu": 1.5e-5,                               # kinematic viscosity
+    "rho": 1.225,                               # density	
+}
