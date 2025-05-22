@@ -1,5 +1,18 @@
 {
-    # flow parameters
-    "nu": 1.5e-5,                               # kinematic viscosity
-    "rho": 1.225,                               # density	
+    # normal parameters
+    "num_float": 1.5e-5,                       # float
+    "num_int": 1,                              # int
+
+    # parameters to be evaluated
+    "list_to_nparray": [0.1, 0.2, 0.3],        # list to np.array
+    "boolean": "True",                         # boolean
+    "function": "np.arange(3, 7)",             # numpy function
+    "nparray": "np.array([15.0, 13.0])",        # numpy function of array
+
+    # sub-directory
+    "steps":
+    {
+        "save": [3.0, 12.0],
+        "num": 12.0,
+    },
 }
